@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 public class TC001_NavigatetoHN {
 	WebDriver driver;
 	@Test
+	//Loginin to Git
 	public void navigate() {
 		//Opens the Chrome Browser
 		System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe" );
